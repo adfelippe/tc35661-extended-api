@@ -18,7 +18,7 @@ The original Toshiba API has also been modified in order to be run on Linux.
 * hci_api_write_scan_enable
 * hci_api_set_event_filter_for_certif_test
 * hci_enable_device_under_test_mode
-*
+
 ### HOW TO IMPLEMENT THIS TOSHIBA API
 Two modules have to be modified for your platform:
 board.c/.h
