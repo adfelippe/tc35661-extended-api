@@ -2,8 +2,8 @@
 ## Extended API for the Toshiba TC35661 Bluetooth radio
 
 TC35661 Extended API for vendor-specific radio settings HCI commands.
-These additions are useful for anyone wishing to control PAN1026/TC35661 radio settings in order to go under any certitication test.
-The original Toshiba API has also been modified in order to be run on Linux.
+These additions are useful for anyone wishing to control PAN1026/TC35661 radio settings in order to go under any certification test.
+The original Toshiba API has also been modified in order to run on Linux.
 
 ### EXTENDED HCI COMMANDS
 * hci_api_set_afh_host_channel_classification
@@ -18,7 +18,7 @@ The original Toshiba API has also been modified in order to be run on Linux.
 * hci_api_write_scan_enable
 * hci_api_set_event_filter_for_certif_test
 * hci_enable_device_under_test_mode
-*
+
 ### HOW TO IMPLEMENT THIS TOSHIBA API
 Two modules have to be modified for your platform:
 board.c/.h
