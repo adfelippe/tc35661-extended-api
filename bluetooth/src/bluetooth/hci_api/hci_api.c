@@ -517,7 +517,7 @@ int hci_api_non_modulated_carrier(uint8_t frequency)
 
 int hci_api_loc_tx_mode_set(uint8_t payload)
 {
-	uint8_t request[] = {0x01, SET_OCF_OGF(OCF_OGF_HCI_LOC_TX_MODE_SET), 0x04, 0x00, 0x0B, 0x08, payload, 0x09};
+	uint8_t request[] = {0x01, SET_OCF_OGF(OCF_OGF_HCI_LOC_TX_MODE_SET), 0x04, 0x00, 0x08, payload, 0x09};
 	int ret = 0;
 
 	printf("hci_api_loc_tx_mode_set...\n");
