@@ -21,9 +21,12 @@ The original Toshiba API has also been modified in order to run on Linux.
 
 ### HOW TO IMPLEMENT THIS TOSHIBA API
 Two modules have to be modified for your platform:
-board.c/.h
-bluetooth_serial.c/.h
-They are to abstraction layer for your hardware settings and the serial port interface connected to the PAN1026/TC35661 module.
+
+* board.c and .h
+
+bluetooth_serial.c and .h
+
+They are the abstraction layer for your hardware settings and the serial port interface connected to the PAN1026/TC35661 module.
 This version of mine is tweaked to run on any Linux embedded system with only a few modifications.
 
 ## _TO-DO_
