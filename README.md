@@ -32,3 +32,4 @@ This version of mine is tweaked to run on any Linux embedded system with only a 
 * Improve abstractions to ease hardware portability.
 * Completely review code style since Toshiba code style stinks. (I mixed it up with mine, so it's a mess)
 * Maybe create a modular port of board and serial modules for several architectures and easily set them up with a config/Makefile?
+* Really do those things
